@@ -1,0 +1,25 @@
+nav {
+	background-color: lightgray;
+	height: 80px;
+	}	
+h1 {
+	font-size: 18px;
+	}
+h2 {
+	font-size: 24px;
+	}
+body {
+	color: #555555;
+	}
+hr {
+	color: #dddddd;
+	}
+div {
+	border: solid thin;
+	border-color: #444444;
+	background-color: #FEFFDB;
+	border-radius: 10px / 10px;
+	width:400px;
+	height: 120px;
+	padding: 15px;
+	}
