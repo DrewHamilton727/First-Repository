@@ -1,139 +1,71 @@
 <!doctype html>
 
 <html lang=“en”>
-
 <head>
-
     <meta charset=“utf-8”>
     <title>Hashbrown Casserole</title>
-    <style type="text/css">
-    body {
-        font-family: Arial;
-        color: #555555;
-    }
-    h1 {
-        color: black;
-        margin-top: -1px;
-    }
-    p {
-    	margin-top: -5px;
-        
-    }
-    h2 {
-        font-size: 18px;
-        color: black;
-    }
-    h4 {
-        color: black;
-    }
-    footer {
-        font-size: 12px;
-    }
-    th {
-        height: 40px;
-        font-size: 14px;
-        text-align: left;
-    }
-    tr:first-child {
-        width: 100px;
-        font-weight: bold;
-    }
-    tr:hover {
-        color: #FEFFD8;
-        cursor: pointer;
-    }
-    #size {
-        margin-top: 40px;
-
-    }
-    img {
-        width: 100px;
-        float: left;
-        margin-right: 5px;
-        margin-bottom: 5px;
-    }
-    nav {
-        background-color: lightgray;
-        height: 80px;
-        margin-bottom: 5px;
-    }
-    button {
-        border: solid #8ABD2B;
-        background-color: #C8F279;
-        height: 30px;
-        width: 70px;
-        font-size: 8px;
-        float: right;
-    }
-    .clear {
-        clear: both;
-    }
-    .introdiv {
-    	float:left;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="recipe.css">
 </head>
 
 <body>
     <nav><a href="index.html">Recipes<a></nav>
-	<div class="introdiv">
-		<img src="http://www.campbellskitchen.com/recipeimages/jill's-hash-brown-casserole-large-27095.jpg"/>
-		<h1>Hashbrown Casserole</h1>
-		<p>A dish made popular by Cracker Barrel, hashbrown casserole is sure to impress at your next brunch!</p>			
-	</div>
-	<div>
-		<button type="submit">Save Recipe</button>
-	</div>
-	<div class="clear"></div>
-	
-	<hr>
-	<h2>Ingredients</h2><br>
-	<table>
-		<thead>
-			<th>Quantity</th>
-			<th>Ingredient</th>		
-		</thead>
-			<tr>
-				<td>1 Can</td>
-				<td>Cream of Chicken Soup</td>
-			</tr>
-			<tr>
-				<td>2 Cups</td>
-				<td>Cheddar Cheese</td>
-			</tr>
-			<tr>
-				<td>2 lbs.</td>
-				<td>Cubed Potatoes</td>
-			</tr>
-			<tr>
-				<td>1 Pint</td>
-				<td>Sour Cream</td>
-			</tr>
-		</table>
+    <div class="introdiv">
+        <img src="http://www.campbellskitchen.com/recipeimages/jill's-hash-brown-casserole-large-27095.jpg"/>
+        <h1>Hashbrown Casserole</h1>
+        <p>A dish made popular by Cracker Barrel, hashbrown casserole is sure to impress at your next brunch!</p>           
+    </div>
+    <div>
+        <button type="submit">Save Recipe</button>
+    </div>
+    <div class="clear"></div>
+    <hr>
+    <h2 id="h2recipe">Ingredients</h2><br>
+    <table>
+        <thead>
+            <th>Quantity</th>
+            <th>Ingredient</th>     
+        </thead>
+            <tr>
+                <td>1 Can</td>
+                <td>Cream of Chicken Soup</td>
+            </tr>
+            <tr>
+                <td>2 Cups</td>
+                <td>Cheddar Cheese</td>
+            </tr>
+            <tr>
+                <td>2 lbs.</td>
+                <td>Cubed Potatoes</td>
+            </tr>
+            <tr>
+                <td>1 Pint</td>
+                <td>Sour Cream</td>
+            </tr>
+        </table>
 
-		<h2 ID= "size">Instructions</h2>
-		<ol>
-			<li>Combine soup, cheese,<br> potatoes, sour cream in<br> a large mixing bowl</li>
-			<li>Pour mixture into large<br> baking dish</li>
-			<li>Preheat oven to 350 F</li>
-			<li>Let bake for 45 minutes</li>
-		</ol>
+        <h2 ID= "size">Instructions</h2>
+        <ol>
+            <li>Combine soup, cheese,<br> potatoes, sour cream in<br> a large mixing bowl</li>
+            <li>Pour mixture into large<br> baking dish</li>
+            <li>Preheat oven to 350 F</li>
+            <li>Let bake for 45 minutes</li>
+        </ol>
 
 <h4>Sign up for our newsletter!</h4>
 
 <form>
-	<label for="name">Name</label>
-	<input type="text" name="name"/>
-	<label for="email">E-mail</label>
-	<input type="text" name="email"/>
-	<label for="favorite">Your favorite food:</label>
-	<select>
-		<option>Chinese</option>
-		<option>Italian</option>
-		<option>Mexican</option>
-		<option>Thai</option>
-	</select>
-	<input type="submit"/>
+    <label for="name">Name</label>
+    <input type="text" name="name"/>
+    <label for="email">E-mail</label>
+    <input type="text" name="email"/>
+    <label for="favorite">Your favorite food:</label>
+    <select>
+        <option>Chinese</option>
+        <option>Italian</option>
+        <option>Mexican</option>
+        <option>Thai</option>
+    </select>
+    <input type="submit"/>
 </form>
 <hr/>
 <footer>
