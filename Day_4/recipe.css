@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    color: #555555;
+}
+h1 {
+    color: black;
+}
+h2 {
+    font-size: 24px;
+    }
+#indexh1 {
+    font-size: 18px;
+}
+#h2recipe {
+    font-size: 18px;
+    color: black;
+}
+h4 {
+    color: black;
+}
+footer {
+    font-size: 12px;
+}
+th {
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+tr:hover {
+    color: #FEFFD8;
+    cursor: pointer;
+}
+#size {
+    margin-top: 40px;
+}
+img {
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+nav {
+    text-align: right;
+    background-color: lightgray;
+    height: 80px;
+    margin-bottom: 5px;
+}
+#saverecipe {
+    border: solid #8ABD2B;
+    background-color: #C8F279;
+    height: 30px;
+    width: 70px;
+    font-size: 8px;
+    float: right;
+}
+#submitrecipe {
+    border: solid #8ABD2B;
+    background-color: #C8F279;
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+}
+.clear {
+    clear: both;
+}
+.introdiv {
+    float: left;
+}
+.RecipeList {
+    border: solid thin;
+    border-color: #444444;
+    background-color: #FEFFDB;
+    border-radius: 10px / 10px;
+    width: 400px;
+    height: 120px;
+    padding: 15px;
+}
+#indexhr {
+    color: #dddddd;
+}
+.bodyindex {
+    color: #555555;
+}
+
+.recipeformdiv {
+    background-color: lightgrey;
+    height: 500px;
+    width: 300px;
+}
