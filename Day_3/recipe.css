@@ -40,6 +40,7 @@ img {
     margin-bottom: 5px;
 }
 nav {
+    text-align: right;
     background-color: lightgray;
     height: 80px;
     margin-bottom: 5px;
@@ -85,4 +86,28 @@ nav {
     background-color: lightgrey;
     height: 500px;
     width: 300px;
+    text-align: center;
+
+}
+.nav {
+    width: 80%;
+    padding: 30px;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    list-style-type: none;
+    text-align: right;
+    
+}
+li {
+    margin: 10px;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+
+}
+#sitelogo {
+    height: 50px;
+    width: 60px;
+    margin: 15px;
 }
