@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang=“en”>
+<html lang="en">
 
 <head>
     <meta charset=“utf-8”>
@@ -10,70 +10,95 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="container-fluid navdiv">
-            <header class="page-header">
-                <ul class="nav nav-tabs navbar-fixed-top col-md-12">
-                    <li class="col-md-offset-1"><a href="http://www.google.com">Bootstrap Assignment</a>
-                    </li>
-                    <li><a href="http://www.google.com">About</a>
-                    </li>
-                    <li><a href="http://www.google.com">Services</a>
-                    </li>
-                    <li><a href="http://www.google.com">Contact</a>
-                    </li>
-                </ul>
-            </header>
-        </div>
+
+    <div class="container-fluid navdiv">
+        <header class="page-header">
+            <ul class="nav nav-tabs navbar-fixed-top col-md-12">
+                <li class="col-md-offset-1"><a href="http://www.google.com">Bootstrap Assignment</a>
+                </li>
+                <li><a href="http://www.google.com">About</a>
+                </li>
+                <li><a href="http://www.google.com">Services</a>
+                </li>
+                <li><a href="http://www.google.com">Contact</a>
+                </li>
+            </ul>
+        </header>
     </div>
-    <div class="topdiv">
-        <div class="container lead">
+
+    <div class="container-fluid">
+
+        <div class="col-md-1 col-xs-1"></div>
+        <div class="topdiv lead container-fluid col-md-10 col-xs-10">
             <h1>Bootstrap<br/>Assignment 6</h1>
-            <br/>
             <h2>Challenge 1</h2>
         </div>
+
+        <div class="col-md-offset-1"></div>
     </div>
+    <br>
+    <hr>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1">
-                <h3>This First Heading <span>Will</br>Catch Your Eye.</h3>
-                </span>
-                <p>Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.</p>
-            </div>
-            <div class="circle col-md-3 col-offset-6">
-            </div>
+            <div class="col-md-5 col-xs-5 col-md-offset-1">
+                <h3>This First Heading <span>Will</br>Catch Your Eye. </span></h3>
+                <p>Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing <a id="beta">everything</a> in the exact time and place.Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.</p>
+                </div>
+            <div class="circle col-md-5 col-xs-5"></div>
         </div>
     </div>
+    <hr>
 
 
 
 
     <div class="container">
         <div class="row">
-            <div class="circle col-md-3 col-md-offset-1"></div>
-            <div class="col-md-5 col-md-offset-1">
+            <div class="circle col-md-5 col-xs-5 col-md-offset-1"></div>
+            <div id="beta"class="col-md-5 col-xs-5">
                 <h3>This Second Heading <span>Is<br>Pretty Cool Too.</span></h3>
                 <p>Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place. Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.</p>
             </div>
         </div>
     </div>
+    <hr>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1">
+            <div id="spot"class="col-md-5 col-xs-5 col-md-offset-1">
                 <h3>This Third Heading <span>Will<br>Seal the Deal. </span></h3>
 
                 <p>Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.Deveti ses ut hi by seef fell sour bad amazing stuff when are bats and dogs for seeing everything in the exact time and place.</p>
             </div>
-            <div class="circle col-md-8"></div>
+            <div class="circle col-md-5 col-xs-5"></div>
         </div>
     </div>
+    
+    <hr>
+
+    <footer>
+        <p class="col-md-offset-1 copyright">Copyright &copy Your Website 2014</p>
+    </footer>
 
 
 
 
+    <script>
+    var name = "Drew";
+    console.log(name);
 
+    function myFunction() {
+        alert("Hello" + name)
+    }
+
+    document.getElementById("spot").background = "blue";
+    
+
+    document.getElementById("beta").addEventListener("click", alert("hi"));
+
+
+    </script>
 </body>
 
 </html>
