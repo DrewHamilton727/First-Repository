@@ -4,19 +4,21 @@
 
 <head>
     <meta charset=“utf-8”>
-    <title>Home Page</title>
+    <title>Submit Page</title>
     <link rel="stylesheet" type="text/css" href="recipe.css">
 </head>
 
 <body>
-  <nav>
-        <img id="sitelogo" src="RecipeLogo.png" />
-        <ul class="nav">
-            <li><a href="submit.html">Submit a Recipe<a></li>
-            <li><a href="Recipe.html">Recipes</a></li> 
-            <li><a href="index.html">Home</a></li>      
+    <nav>
+        <img class="sitelogo" src="RecipeLogo.png"/>
+        <ul class="navlist">
+            <li><a href="submit.html">Submit a Recipe</a></li>
+            <li><a href="recipe.html">Recipes</a>
+            </li>
+            <li><a href="index.html">Home</a>
+            </li>
         </ul>
-</nav>
+    </nav>
 
     <h1>Submit a recipe</h1>
     <p>We'd love to know what your favorite recipes are! Submit them here, and if they're awesome, we'll include them on our site.</p>
@@ -34,7 +36,7 @@
             <br>
             <label class="submitfields" for="recipetype">What type of recipe is this?</label>
             <br>
-            <select id="selectfield">
+            <select class="selectfield">
                 <br>
                 <option>Appetizer</option>
                 <option>Side Dish</option>
@@ -48,7 +50,7 @@
             <textarea rows="15" cols="32" type="text" name="recipe"></textarea>
             <br>
             <br>
-            <button id="submitrecipe" type="submit">Submit Recipe</button>
+            <button class="submitrecipe" type="submit">Submit Recipe</button>
         </form>
     </div>
 
