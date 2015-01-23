@@ -23,7 +23,7 @@ nav a {
 	background-color: gray;
 	text-align: center;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 
 }
 
@@ -35,6 +35,7 @@ p {
 }
 h1, h2{
 	background-color: white;
+
 }
 .copyright{
 	color: gray;
