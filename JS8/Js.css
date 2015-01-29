@@ -1,57 +1,51 @@
-html{
-	background-color:black;
+html {
+    background-color: black;
 }
 a {
-	color:white;
+    color: white;
 }
 .alpha {
-	background-color:blue;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-
-
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
-
-.bravo{
-	background-color:purple;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+.bravo {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
-
-.charlie{
-	background-color:orange;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+.charlie {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
-
-.delta{
-	background-color:red;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+.delta {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
-
 .epsilon {
-	background-color:green;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
