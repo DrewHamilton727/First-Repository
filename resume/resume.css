@@ -70,8 +70,9 @@ ul {
     background-color: #A6A8A9;
 }
 .skillHeading {
-    font-size: 18px;
-    font-weight: bold;
+    font: bold 18px;
+    /*    font-size: 18px;
+    font-weight: bold; */
 }
 .vertical {
     margin-top: 75px;
@@ -86,8 +87,9 @@ ul {
     height: 500px;
 }
 .heading {
-    font-size: 20px;
-    font-weight: bold;
+    font: bold 20px;
+    /*  font-size: 20px;
+    font-weight: bold; */
 }
 #subtype2 {
     color: gray;
@@ -96,8 +98,9 @@ ul {
 .downloadButton {
     height: 40px;
     width: 110px;
-    border-color: orange;
-    border-style: solid;
+    border: solid orange;
+/*    border-color: orange;
+    border-style: solid; */
     border-radius: 5%;
     text-align: center;
     padding-top: 6px;
@@ -109,7 +112,6 @@ ul {
 .resume {
     font-size: 30px;
 }
-
 .contactdiv {
     width: 100%;
     height: 800px;
@@ -150,43 +152,42 @@ ul {
     margin: 15px;
 }
 .contactButton {
-	font-size: 12px;
-	height: 20px;
-	width: 110px;
-	border-color: orange;
-	border-style: solid;
-	border-radius: 5%;
-	text-align: center;
-	color: black;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-decoration: none;
+    font-size: 12px;
+    height: 20px;
+    width: 110px;
+    border: solid orange;
+    /*border-color: orange;
+    border-style: solid;*/
+    
+    border-radius: 5%;
+    text-align: center;
+    color: black;
+    padding: 10px 5px 10px 5px;
+    /*padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;*/
+    
+    text-decoration: none;
 }
-
-#owl .item{
-  margin: 3px;
+#owl .item {
+    margin: 3px;
 }
-#owl .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+#owl .item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-
-.navbar-default{
+.navbar-default {
     background-color: transparent;
     border: none;
 }
-
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-
-.navbar-default .navbar-toggle{
+.navbar-default .navbar-toggle {
     color: #000;
 }
-
 .navbar-default .navbar-nav li a {
     color: white;
 }
