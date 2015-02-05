@@ -1,0 +1,134 @@
+
+/* Navbar */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: transparent !important;
+    border: 2px solid white;
+}
+.navbar-default {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    color: #000;
+}
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+.navbar-fixed-top {
+    padding: 10px;
+}
+#name {
+    color: white;
+}
+.navBar {
+    color: white;
+}
+.listLinks {
+    text-decoration: none;
+    color: white;
+}
+.contact {
+    color: black;
+}
+.subtype {
+    color: gray;
+    font-size: 22px;
+}
+.statsDi v {
+    width: 100%;
+}
+.statusDiv {
+    background-color: #F0F0F0;
+}
+.customerDiv {
+    background-color: #F0F0F0;
+
+}
+.progress-bar {
+    background-color: #A6A8A9;
+}
+.statusDiv h4 {
+    font-size: 30px;
+}
+.statsDiv h4 {
+    font-size: 30px;
+}
+.customerDiv h4 {
+    font-size: 30px;
+}
+.heading {
+    font: bold 20px;
+}
+#subtype2 {
+    color: gray;
+    font-size: 12px;
+}
+.downloadButton a {
+    color: black;
+    text-decoration: none;
+}
+.resume {
+    font-size: 30px;
+}
+.contactdiv p {
+    color: white;
+}
+.contactdiv .container .row ul {
+    color: white;
+    font-size: 12px;
+}
+.contactdiv .container .row ul a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.contactUs {
+    color: white;
+    font-size: 30px;
+}
+.contactdiv {
+    background-color: black;
+}
+.sbutton {
+    color: white;
+}
+.sbutton p {
+    color: white;
+    font-size: 10px;
+}
+.customerlist li {
+    font-size: 20px;
+}
+.contactButton {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.social {
+    color: black;
+    display: inline-block;
+}
+.resType {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    height: 50px;
+    background-color: black;
+}
+.footerIcon {
+    color: white;
+}
+.foot {
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    height: 20px;
+}
