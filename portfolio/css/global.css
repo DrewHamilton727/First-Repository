@@ -1,0 +1,335 @@
+.header {
+    color: #f5f7fa;
+    border-bottom: solid #e6e9ed;
+}
+.info {
+    width: 100%;
+    padding-right: 12px;
+    display: inline;
+    color: #6e8197;
+}
+.contents h3 {
+    color: white;
+    font-variant: small-caps;
+}
+.contact {
+    padding: 100px 0px;
+
+}
+.tab:hover {
+	background-color: none;
+}
+
+.border1 {
+
+	background-color: white;
+	padding: 0px;
+	margin:0px;
+}
+.input-group .form-control{
+	width: 200px;
+}
+.border2 {
+	
+	background-color: white;
+	padding: 0px;
+	margin:0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: transparent;
+}
+.navbar-brand {
+    padding: 15px 0px;
+}
+.social {
+    padding: 0px 5px 0px 5px;
+    width: 100%;
+    padding-right: 8px;
+    display: inline;
+    color: #6e8197;
+    list-style-type: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a {
+    color: #506a85;
+}
+.text {
+	color: #506a85;
+}
+.fa-dribbble {
+    padding: 10px 5px 10px 5px;
+}
+.fa-dribbble:hover {
+    background-color: #eb6397;
+}
+.fa-behance {
+    padding: 10px 5px 10px 5px;
+}
+.fa-pinterest-p{
+	padding: 10px 5px 10px 5px;
+}
+.fa-pinterest-p:hover{
+	background-color: #d94348;
+}
+
+.fa-behance:hover {
+    background-color: #3079ff;
+}
+.fa-facebook{
+	padding: 10px 5px 10px 5px;
+}
+.fa-facebook:hover{
+	background-color:#4668b3;
+}
+.fa-google-plus{
+	padding: 10px 5px 10px 5px;
+}
+.fa-google-plus:hover{
+	background-color:#de5745;
+}
+.fa-twitter{
+	padding: 10px 5px 10px 5px;
+} 
+.fa-twitter:hover{
+	background-color:#2fbbed;
+} 
+.navlinks li {
+    display: inline-block;
+    width: 75px;
+        margin-right: 4px;
+
+}
+.navlinks {
+    float: left;
+    margin-left: 150px;
+}
+.navlinks li a {
+    color: #506a85;
+
+ 
+}
+.navbar-search {
+    float: right;
+    padding-top: 15px;
+    margin-left: 300px;
+}
+.tab {
+    font-variant: small-caps;
+    color: #6e8197;
+    font-size: 10px;
+    padding-right: 5px;
+    width: 100px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: none;
+    background-color: none;
+}
+.logo {
+    float: left;
+}
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.btn-default2{
+	width: 90px;
+    background-color: #00bc9c;
+    color: white;
+    border: none;
+    font-size: 15px;
+    height: 34px;
+    font-variant: small-caps;
+    border-radius: 2px 2px;
+
+
+}
+.form-control {
+	width: 40px;
+}
+/* Styling: Text Inside big focal point carousel*/
+.page{
+	  padding-top: 50px;
+}
+.page h1 {
+    font-size: 65px;
+}
+.page p {
+    color: #a3b1bf;
+    text-align: center;
+    font-size: 18px;
+}
+
+.page5 h1 {
+    text-align: center;
+}
+.page5 p {}
+/*  Carousel Button*/
+
+.btn-default {
+    background-color: #00bc9c;
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    font-variant: small-caps;
+    border-radius: 2px 2px;
+    margin-top: 30px;
+}
+.btn-default:hover {
+	color:#17a78b;
+	}
+.owl-theme .owl-controls .owl-buttons div {
+    color: #f5f7fa;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    /*IE7 life-saver */
+    
+    margin: 5px;
+    padding: 3px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #f5f7fa;
+    filter: Alpha(Opacity=50);
+    /*IE7 fix*/
+    
+    opacity: 0.5;
+}
+
+.owl-carousel div h2, .owl-carousel div .textoverlay {
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#hed1 h1{
+	margin-top: 160px;
+	
+}
+#hed2 h1{
+	text-align: right;	
+}
+
+#hed2 p {
+	text-align: right;
+
+}
+#hed2 .btn {
+	float: right;
+}
+#h1a {
+
+}
+#hed3 h1{
+	
+	text-align: left;
+	
+}
+#hed3 p {
+	text-align: left;
+	color: #506a85;
+}
+#hed3 .btn{
+	float:left;
+}
+#hed4 h1{
+	
+	text-align: right;
+}
+
+#hed4 p{
+	text-align: right;
+	color: #ffffff;
+	
+}
+#hed4 .btn{
+	float: right;
+}
+#hed5 {
+	
+}
+.margin {
+	padding: 100px 0px;
+}
+
+.gm:hover {
+	color:#03af97;
+}
+
+/* END OF BIG FOCAL POINT CAROUSEL */
+/*Start of Section 2*/
+
+.section3{
+	margin-top:100px;
+
+}
+
+.works {
+    background-color: #f2f5f7;
+    height: 1100px;
+}
+.fa-middle {
+    color: #00bc9c;
+}
+.scroll {
+    border: solid thick red;
+    height: 500px;
+}
+.contents {
+    background-color: #2f4052;
+    width: 100%;
+    height: 450px;
+}
+.cartext {
+	background-color: #506a85;
+	padding: 4px 8px;
+
+
+}
+.news a{
+	list-style-type: none;
+}
+.newsul {
+	padding-left:0px;
+}
+.who {
+	color: #a3b1bf;
+}
+.news {
+	list-style-type: none;
+	color: #a3b1bf;
+}
+.btn-default:hover {
+	background-color:#17a78b;
+	color:white;
+}
+
+
+@media all and (min-width: 768px) {
+    .navbar-fixed-width {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (min-width: 992px) {
+    .navbar-fixed-width {
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (min-width: 1200px) {
+    .navbar-fixed-width {
+        width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
