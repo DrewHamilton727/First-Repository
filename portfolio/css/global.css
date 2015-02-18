@@ -8,6 +8,12 @@
     display: inline;
     color: #6e8197;
 }
+.media {
+    padding-top: 5px;
+}
+.icons {
+    margin-bottom: 0px;
+}
 .contents h3 {
     color: white;
     font-variant: small-caps;
@@ -21,33 +27,58 @@
 }
 
 .border1 {
-
 	background-color: white;
 	padding: 0px;
 	margin:0px;
 }
 .input-group .form-control{
 	width: 200px;
+    background-color: #596675;
+    border:  #596675;
+    height: 40px;
+    border-radius: 15px;
 }
 .border2 {
-	
+	border: 0px;
 	background-color: white;
 	padding: 0px;
 	margin:0px;
 }
+.homeDD li {
+    font-style: small-caps;
+    color: #73879c;
+    padding: 10px 0px;
+}
+.homeDD li a:hover{
+    background-color: #00bc9c;
+    width: 180px;
+    padding-right: 60px;
+    color: white;
+
+}
+.homeDD{
+    padding-right: 100px;
+}
+
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: transparent;
+    border: 0px;
+}
+.info:hover{
+    color: #7ad9cb;
 }
 .navbar-brand {
     padding: 15px 0px;
 }
+.input-group {
+    background-color: #596675;
+}
 .social {
-    padding: 0px 5px 0px 5px;
     width: 100%;
-    padding-right: 8px;
     display: inline;
     color: #6e8197;
     list-style-type: none;
+    height:44px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a {
     color: #506a85;
@@ -92,20 +123,23 @@
 .fa-twitter:hover{
 	background-color:#2fbbed;
 } 
-.navlinks li {
-    display: inline-block;
-    width: 75px;
-        margin-right: 4px;
-
+.smallpic{
+    margin: 4px;
+    padding: 0px;
 }
+
 .navlinks {
+    padding-top: 10px;
     float: left;
-    margin-left: 150px;
+    margin-left: 10px;
+    width: 900px;
 }
 .navlinks li a {
     color: #506a85;
-
- 
+    width: 100px;
+}
+.navlinks li {
+     padding-right: 10px;
 }
 .navbar-search {
     float: right;
@@ -115,9 +149,11 @@
 .tab {
     font-variant: small-caps;
     color: #6e8197;
-    font-size: 10px;
-    padding-right: 5px;
-    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    width: 90px;
+    text-align: center;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: none;
@@ -132,26 +168,22 @@
     height: auto;
 }
 .btn-default2{
-	width: 90px;
+	width: 82px;
     background-color: #00bc9c;
     color: white;
     border: none;
     font-size: 15px;
-    height: 34px;
+    height: 26px;
     font-variant: small-caps;
     border-radius: 2px 2px;
+    margin-right: 5px;
 
 
-}
-.form-control {
-	width: 40px;
 }
 /* Styling: Text Inside big focal point carousel*/
-.page{
-	  padding-top: 50px;
-}
+
 .page h1 {
-    font-size: 65px;
+ 
 }
 .page p {
     color: #a3b1bf;
@@ -211,7 +243,7 @@
 }
 #hed1 h1{
 	margin-top: 160px;
-	
+	font-size: 4.0625em;
 }
 #hed2 h1{
 	text-align: right;	
@@ -239,26 +271,19 @@
 #hed3 .btn{
 	float:left;
 }
-#hed4 h1{
-	
+#hed4 h1{	
 	text-align: right;
 }
-
 #hed4 p{
 	text-align: right;
-	color: #ffffff;
-	
+	color: #ffffff;	
 }
 #hed4 .btn{
 	float: right;
 }
-#hed5 {
-	
-}
 .margin {
 	padding: 100px 0px;
 }
-
 .gm:hover {
 	color:#03af97;
 }
@@ -268,9 +293,7 @@
 
 .section3{
 	margin-top:100px;
-
 }
-
 .works {
     background-color: #f2f5f7;
     height: 1100px;
@@ -290,8 +313,6 @@
 .cartext {
 	background-color: #506a85;
 	padding: 4px 8px;
-
-
 }
 .news a{
 	list-style-type: none;
@@ -309,6 +330,28 @@
 .btn-default:hover {
 	background-color:#17a78b;
 	color:white;
+}
+footer {
+    background-color: #283645;
+    width: 100%;
+    height: 70px;
+}
+.footlist{
+    text-align: right;
+    padding-right: 0px;
+}
+.footlist li{
+    display: inline;
+    padding-left: 6px;
+    color: #677583;
+}
+.copy {
+    font-size: 12px;
+    color: #677583;
+
+}
+.footrow {
+    padding-top: 35px;
 }
 
 

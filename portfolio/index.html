@@ -15,11 +15,11 @@
     <header>
         <div class="container-fluid header">
             <div class="container">
-                <div class="pull-left">
+                <div class="media pull-left">
                     <div class="info"><i class="fa fa-envelope-o "></i> info@reen.com </div>
                     <div class="info"><i class="fa fa-mobile "></i> +00 (123) 456 78 90</div>
                 </div>
-                <ul class="pull-right">
+                <ul class="icons pull-right">
                     <li class="social"><i class="fa fa-facebook"></i>
                     </li>
                     <li class="social"><i class="fa fa-google-plus"></i>
@@ -42,7 +42,8 @@
     <div class="container-fluid navdiv">
         <div class="container">
 
-            <nav class="navbar">
+            <nav class="navbar yamm navbar-default" role="navigation">
+
                 <!-- Brand and toggle get grouped for better mobile display -->
 
                 <div class="navbar-header">
@@ -52,7 +53,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand logo" href="#"><img src="pics/logo.png" />
+                    <a class="navbar-brand logo" href="#"><img src="pics/toplogo.png" alt="brand" />
                     </a>
                 </div>
 
@@ -60,40 +61,116 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
 
 
-                <div class="collapse navbar-collapse yamm"  id="bs-example-navbar-collapse-1 ">
+                <div class="navbar-collapse yamm" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navlinks">
-                        <li><a href="#" class="tab">HOME <span class="sr-only">(current)</span></a>
+                        <li class="dropdown"><a href="#" class="tab dropdown-toggle" data-toggle="dropdown">HOME</a>
+                            <ul class="dropdown-menu homeDD">
+                                <li><a href='#'>AGENCY STYLE</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href='#'>PRODUCT STYLE</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href='#'>SERVICE STYLE</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href='#'>PORTFOLIO STYLE</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href='#'>SHOWCASE STYLE</a>
+                                </li>
+                                <li class="divider"></li>
+
+                            </ul>
                         </li>
                         <li><a href="#" class="tab">PORTFOLIO</a>
                         </li>
-                        <li><a href="#">BLOG</a>
+                        <li><a href="#" class="tab">BLOG</a>
                         </li>
                         <li><a href="#" class="tab">PAGES</a>
-                            </li>
+                        </li>
                         <li><a href="#" class="tab">FEATURES</a>
-                            </li>
-                            <li class="dropdown tab"><a href="#" class="tab dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MEGA MENU</a>
-                            </li>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a>
-                                </li>
-                                <li><a href="#">Another action</a>
-                                </li>
-                                <li><a href="#">Something else here</a>
-                                </li>
-                                <li class="divider" class="tab"></li>
-                                <li><a href="#">Separated link</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="#">One more separated link</a>
-                                </li>
+                        </li>
+                        <li class="dropdown yamm-fw">
+
+                            <a href="#" class="tab dropdown-toggle" data-toggle="dropdown">MEGA MENU</a>
+
+                            <ul class="dropdown-menu">
+                                <div class="container">
+
+                                    <li>
+                                        <div class="yamm-content">
+                                            <div class="row">
+                                                <div class="col-md-3 ">
+                                                    <p>FOCUS ON</p>
+                                                    <ul class="list-unstyled">
+                                                        <li><img src="pics/bigimage.png" alt="green phone">
+                                                        </li>
+                                                        <li>Consed quodips ameniat empernam que apid cust quas molor eatis numa estio.</li>
+                                                        <li>
+                                                            <button class="btn-default">VIEW PROJECT</button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p>SPECIAL PAGES</p>
+                                                    <ul>
+                                                        <li>3 Columns Details Grid Portfolio</li>
+                                                        <li>Fullscreen Grid Portfolio</li>
+                                                        <li>Portfolio Post with Video</li>
+                                                        <li>2 Columns Grid Blog with Left Sidebar</li>
+                                                        <li>3 Columns Grid Blog without Sidebar</li>
+                                                        <li>Blog Post with Right Sidebar</li>
+                                                        <li>Side Navigation Page</li>
+                                                        <li>About Page II</li>
+                                                        <li>Service Page I</li>
+                                                        <li>Pricing Page I</li>
+                                                        <li>Contact Page I</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p>LATEST WORKS</p>
+                                                    <div class="row smallpic">
+                                                        <img src="pics/smallimage1.png" class="col-md-6">
+                                                        <img src="pics/smallimage2.png" class="col-md-6">
+                                                    </div>
+                                                    <div class="row smallpic">
+                                                        <img src="pics/smallimage3.png" class="col-md-6">
+                                                        <img src="pics/smallimage4.png" class="col-md-6">
+                                                    </div>
+                                                    <div class="row smallpic">
+                                                        <img src="pics/smallimage5.png" class="col-md-6">
+                                                        <img src="pics/smallimage6.png" class="col-md-6">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p>About Us</p>
+                                                    <p>Voluptat ibusaped molorporro consequ idustibus. Reressi morum ut dolessiti tem nihicid ernatum, coria volore non pro officat ut autem accaborem conet. Omnis peribus qui dolent praeperrum coria.</p>
+                                                    <p>Equam conesti occum dolorest, quae venderes quistius, comnitatur sae dinam nonseculpa cum fugit is verciam.</p>
+                                                    <button class="btn-default">READ MORE</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
                             </ul>
-                            <li><a href="#" class="tab">CONTACT</a>
-                            </li>
+
+                        </li>
+                        <li><a href="#" class="tab">CONTACT</a>
+                        </li>
+                        <li class="tab">
+                            <i class="fa fa-search"></i>
                         </li>
 
-                        <a href="#" class="navbar-search"><i class="fa fa-search"></i></a>
+
+                        <!-- <a href="#" class="navbar-search"><i class="fa fa-search"></i></a> -->
                     </ul>
+
+                    <!-- Drop  Down Search Bar -->
+
+
+
+
                 </div>
                 <!-- /.navbar-collapse -->
             </nav>
@@ -107,14 +184,14 @@
 
     <div id="owl-demo" class="owl-carousel owl-theme">
         <div class="item">
-
-            <div class="textoverlay page" id="hed1">
+             <div class="textoverlay page" id="hed1">
                 <h1>MADE FOR DESIGNERS</h1>
                 <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN
                     <br>website template. Customize your site with versatile and easy-to-use features.</p>
                 <button class="btn btn-default" type="button">get started now</button>
             </div><img src="pics/caro-1.png" alt="photo 1">
-        </div>
+            </div>
+        
         <div class="item">
             <div class="textoverlay page" id="hed2">
                 <div class="container">
@@ -123,7 +200,7 @@
                         <br>Professional use of typography and layout that fits your content.</p>
                     <button class="btn btn-default" type="button">get started now</button>
                 </div>
-            </div><img src="pics/car-2.png" alt="photo 2">
+            </div><img src="pics/car-2.png" alt="photo 2" />
         </div>
         <div class="item">
             <div class="textoverlay page" id="hed3">
@@ -134,7 +211,7 @@
                         <br>modules and paste them in different places or layouts.</p>
                     <button class="btn btn-default" type="button">get started now</button>
                 </div>
-            </div><img src="pics/car-3.png" alt="photo 3">
+            </div><img src="pics/car-3.png" alt="photo 3" />
         </div>
         <div class="item">
             <div class="textoverlay page" id="hed4">
@@ -145,7 +222,7 @@
                         <br>time brainstorming ideas for your next project.</p>
                     <button class="btn btn-default" type="button">get started now</button>
                 </div>
-            </div><img src="pics/car-4.png" alt="photo 4">
+            </div><img src="pics/car-4.png" alt="photo 4" />
         </div>
         <div class="item">
             <div class="textoverlay page" id="hed5">
@@ -155,8 +232,9 @@
                         <br> quickly and easily. Now it's up to you!</p>
                     <button class="btn btn-default" type="button">get started now</button>
                 </div>
-            </div><img src="pics/car-5.png" alt="photo 5">
+            </div><img src="pics/car-5.png" alt="photo 5" />
         </div>
+    </div>
     </div>
 
 
@@ -175,14 +253,18 @@
             <br>
             <div class="row">
                 <i class="fa fa-middle fa-heart-o fa-4x col-md-1 text-right"></i>
-                <p class="col-md-3 text-left">Passion
-                    <br>Magnis modipsae que lib voloratati andigen daepeditem q </p>
+                <div class="col-md-3 text-left">
+                    <h3>Passion</h3>
+                    <br>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</div>
                 <i class="fa fa-middle fa-lightbulb-o fa-4x col-md-1 text-right"></i>
-                <p class="col-md-3">Creativity
-                    <br>Magnis modipsae que lib voloratati andigen daepedite</p>
+                <div class="col-md-3">
+                    <h3>Creativity</h3>
+                    <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</div>
                 <i class="fa fa-middle fa-star-o fa-4x col-md-1 text-right"></i>
-                <p class="col-md-3">Quality
-                    <br>Magnis modipsae que lib voloratati andigen daepeditem q</p>
+                <div class="col-md-3">
+                    <h3>Quality</h3>
+                    <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -204,14 +286,15 @@
             <br>
             <br>
             <div class="row text">
-                <div class="col-md-6 border1"><img class="img-responsive" src="pics/backgroundcopy.png">
-                    <br> <!-- USE DROP SHADOW TO MAKE THE WHITE BOX AROUND THE TEXT UNDER THE PICS -->
+                <div class="col-md-6 border1"><img class="img-responsive" src="pics/backgroundcopy.png" alt="picture">
+                    <br>
+                    <!-- USE DROP SHADOW TO MAKE THE WHITE BOX AROUND THE TEXT UNDER THE PICS -->
                     <h3 class="text-center">Grand Motel gets an identity brushup</h3>
                     <br>
                     <p class="text-center">Identity</p>
                 </div>
                 <div class="col-md-6 border2">
-                    <img class="img-responsive" src="pics/backgroundcopy2.png">
+                    <img class="img-responsive" src="pics/backgroundcopy2.png" alt="picture2">
                     <br>
                     <h3 class="text-center">Fresh branding for a creative startup</h3>
                     <br>
@@ -304,7 +387,7 @@
                 <div class="col-md-3">
                     <h3>free updates</h3>
                     <br>
-                    <p class="who">Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                    <p class="who">Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Enter your email address">
                         <span class="input-group-btn">
@@ -332,6 +415,25 @@
 
     <!-- FOOTER -->
     <footer>
+        <div class="container">
+            <div class="row footrow">
+                <p class="col-md-3 copy">2014 &#169; REEN. All rights reserved.</p>
+                <ul class="col-md-4 col-md-offset-5 footlist pull-right">
+                    <li><a href="#">Home</a>
+                    </li>
+                    <li><a href="#">Portfolio</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Services</a>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script type="text/javascript" src="plugins/jquery-2.1.3.js"></script>
     <script type="text/javascript" src="plugins/bootstrap.min.js"></script>
