@@ -345,13 +345,16 @@ footer {
     padding-left: 6px;
     color: #677583;
 }
+.footlist li a{
+    color: #677583;
+}
 .copy {
     font-size: 12px;
     color: #677583;
 
 }
 .footrow {
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 
